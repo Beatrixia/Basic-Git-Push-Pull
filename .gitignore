@@ -1,0 +1,4 @@
+# .gitignore use to ignore type file that we dont want to upload to git like junk file
+
+# use * to define type of file that we choose not to upload. Example *.log *.exe *.txt
+*.log
