@@ -21,4 +21,10 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 # One-click script to Pull the latest changes from Remote
 
 ├── README.md        # เอกสารอธิบายการใช้งาน
-# Documentation and guide 
+# Documentation and guide
+```
+
+มีลำดับการใช้งานดังนี้
+
+1) Create .gitignore and GitSetup.bat
+2) Feel free to use GitPush.bat GitPull.bat
