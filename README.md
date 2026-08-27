@@ -11,23 +11,23 @@ Git for Windows
   *  >  winget install --id Git.Git -e --source winget  
     
 macOS  
-  **Terminal**  
-    >  brew install git  
-  **Xcode Command Line Tools**  
-    >  xcode-select --install  
+  * **Terminal**  
+  *   >  brew install git  
+  * **Xcode Command Line Tools**  
+  *   >  xcode-select --install  
     
 Linux  
-  **Ubuntu / Debian**  
-    >  sudo apt update  
-    >  sudo apt install git  
-  **Fedora / RHEL / CentOS**  
-    >  sudo dnf install git  
-  **Arch Linux**  
-    >  sudo pacman -S git  
+  * **Ubuntu / Debian**  
+  *   >  sudo apt update  
+  *   >  sudo apt install git  
+  * **Fedora / RHEL / CentOS**  
+  *   >  sudo dnf install git  
+  * **Arch Linux**  
+  *   >  sudo pacman -S git  
 
 วิธีตรวจสอบว่าติดตั้งสำเร็จหรือยัง 
-  Terminal / Command Prompt / Git Bash  
-    >  git --version  
+  * Terminal / Command Prompt / Git Bash  
+  *   >  git --version  
   
 ---
 
