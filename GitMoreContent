@@ -6,31 +6,18 @@
 --------------------------------------------------------------------------------
 ใช้สำหรับตรวจสอบประวัติการบันทึกงานทั้งหมดย้อนหลัง เพื่อดูว่าใครแก้ไขไฟล์ไหน 
 เมื่อไหร่ และเขียน Commit Message ไว้อย่างไร
-
-คำสั่งที่นิยมใช้:
-* git log                    : ดูประวัติทั้งหมดแบบละเอียด (รายละเอียดผู้เขียน, วันที่, Hash)
-* git log --oneline          : ดูประวัติแบบสั้นกระชับ (1 Commit ต่อ 1 บรรทัด)
-* git log -n 5               : ดูประวัติย้อนหลังเฉพาะ 5 รายการล่าสุด
-* git log --oneline --graph  : ดูประวัติพร้อมแสดงแผนผังการแยก/รวม Branch
-* git log --stat             : ดูประวัติพร้อมสรุปจำนวนบรรทัดและไฟล์ที่มีการแก้ไข
-
-(คำแนะนำ: เมื่ออยู่ในหน้าจอ log หากรายการยาวเกินไป ให้กดปุ่ม 'Q' เพื่อออกจากหน้าจอ)
-
-
-[EN] 1. git log - Commit History Viewer
---------------------------------------------------------------------------------
 Used to review the project's commit history, tracking who changed what files, 
 when the changes occurred, and the corresponding commit messages.
 
-Common Usage:
-* git log                    : Display full commit history (Author, Date, Hash)
-* git log --oneline          : Concise view (1 commit per line)
-* git log -n 5               : Show only the last 5 commits
-* git log --oneline --graph  : Display history with an ASCII branch visualization graph
-* git log --stat             : Display history with changed files and insertion/deletion stats
+คำสั่งที่นิยมใช้:
+* git log                    : ดูประวัติทั้งหมดแบบละเอียด (รายละเอียดผู้เขียน, วันที่, Hash)		: Display full commit history (Author, Date, Hash)
+* git log --oneline          : ดูประวัติแบบสั้นกระชับ (1 Commit ต่อ 1 บรรทัด)						: Concise view (1 commit per line)
+* git log -n 5               : ดูประวัติย้อนหลังเฉพาะ 5 รายการล่าสุด											: Show only the last 5 commits
+* git log --oneline --graph  : ดูประวัติพร้อมแสดงแผนผังการแยก/รวม Branch								: Display history with an ASCII branch visualization graph
+* git log --stat             : ดูประวัติพร้อมสรุปจำนวนบรรทัดและไฟล์ที่มีการแก้ไข						: Display history with changed files and insertion/deletion stats
 
+(คำแนะนำ: เมื่ออยู่ในหน้าจอ log หากรายการยาวเกินไป ให้กดปุ่ม 'Q' เพื่อออกจากหน้าจอ)
 (Tip: If the log list is long and shows a colon prompt, press 'Q' to quit back to the terminal)
-
 
 ================================================================================
 [TH] 2. คำสั่งกู้คืนไฟล์ แยกสาย และเปรียบเทียบโค้ด (Recovery, Branching & Diff)
