@@ -1,4 +1,4 @@
-# 🚀 Universal Git Automation Template
+# 👾 Universal Git Automation Template
 
 ชุดสคริปต์อัตโนมัติสำหรับการจัดการเวอร์ชัน (Version Control) บน **Git / GitHub / GitLab** (เช่น Web Development, Python, C/C++, Embedded System หรือ FPGA) ช่วยลดขั้นตอนการพิมพ์คำสั่งผ่าน Command Line และอำนวยความสะดวกในการ Push/Pull โค้ด
 An automated script template for Version Control using **Git / GitHub / GitLab** (e.g., Web Development, Python, C/C++, Embedded Systems, or FPGA). This toolkit eliminates repetitive CLI commands and streamlines your everyday Push/Pull workflow.
@@ -24,7 +24,7 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 # Documentation and guide
 ```
 
-มีลำดับการใช้งานดังนี้
+### มีลำดับการใช้งานดังนี้
 
 1) Create .gitignore and GitSetup.bat
 2) Feel free to use GitPush.bat GitPull.bat
