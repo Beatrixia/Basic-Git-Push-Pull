@@ -20,6 +20,9 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 ├── GitPull.bat         # สคริปต์ดึงโค้ดล่าสุด (Pull) จาก Remote ลงเครื่อง
 # One-click script to Pull the latest changes from Remote
 
+├── GitTerminal.bat      # ใช้เป็น Terminal ส่วนตัวสำหรับรัน Git โดยเฉพาะ
+# One-click script to Open Terminal to use git command-line
+
 ├── README.md        # เอกสารอธิบายการใช้งาน
 # Documentation and guide
 ```
