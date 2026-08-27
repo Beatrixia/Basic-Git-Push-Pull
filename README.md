@@ -8,30 +8,30 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 Git for Windows  
 
   **จากเว็บไซต์ทางการ**  
-    * git-scm.com  
+    >  git-scm.com  
   **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):  
-    * winget install --id Git.Git -e --source winget  
+    >  winget install --id Git.Git -e --source winget  
 
 #macOS  
 
   **Terminal** :  
-    * brew install git  
+    >  brew install git  
   **Xcode Command Line Tools** :  
-    * xcode-select --install  
+    >  xcode-select --install  
 
 Linux  
 
   **Ubuntu / Debian** :  
-    * sudo apt update  
-    * sudo apt install git  
+    >  sudo apt update  
+    >  sudo apt install git  
   **Fedora / RHEL / CentOS** :  
-    * sudo dnf install git  
+    >  sudo dnf install git  
   **Arch Linux** :  
-    * sudo pacman -S git  
+    >  sudo pacman -S git  
 
 วิธีตรวจสอบว่าติดตั้งสำเร็จหรือยัง  
   Terminal / Command Prompt / Git Bash :  
-   * git --version  
+    >  git --version  
   
 ---
 
