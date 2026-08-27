@@ -5,10 +5,10 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 
 ## ** อันดับแรกต้องลง GIT ลงคอมก่อน First You have to install GIT **  
 Git for Windows  
-  **จากเว็บไซต์ทางการ**  
-    >  git-scm.com  
-  **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):  
-    >  winget install --id Git.Git -e --source winget  
+  * **จากเว็บไซต์ทางการ**  
+  *  >  git-scm.com  
+  * **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):  
+  *  >  winget install --id Git.Git -e --source winget  
     
 macOS  
   **Terminal**  
