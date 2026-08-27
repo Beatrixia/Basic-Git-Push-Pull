@@ -14,10 +14,10 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 ├── GitSetup.bat     # สคริปต์ตั้งค่า Permission และเชื่อมต่อ Repository ครั้งแรกช
 # One-time setup script for repository remote & permissions
 
-├── Push.bat         # สคริปต์ส่งการเปลี่ยนแปลง (Commit & Push) ขึ้น Remote
+├── GitPush.bat         # สคริปต์ส่งการเปลี่ยนแปลง (Commit & Push) ขึ้น Remote
 # One-click script to Commit and Push changes to Remote
 
-├── Pull.bat         # สคริปต์ดึงโค้ดล่าสุด (Pull) จาก Remote ลงเครื่อง
+├── GitPull.bat         # สคริปต์ดึงโค้ดล่าสุด (Pull) จาก Remote ลงเครื่อง
 # One-click script to Pull the latest changes from Remote
 
 ├── README.md        # เอกสารอธิบายการใช้งาน
