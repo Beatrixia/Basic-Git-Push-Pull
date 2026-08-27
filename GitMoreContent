@@ -1,0 +1,75 @@
+================================================================================
+                    GIT COMMAND REFERENCE (TH / EN)
+================================================================================
+
+[TH] 1. git log - การดูประวัติการทำงาน (Commit History)
+--------------------------------------------------------------------------------
+ใช้สำหรับตรวจสอบประวัติการบันทึกงานทั้งหมดย้อนหลัง เพื่อดูว่าใครแก้ไขไฟล์ไหน 
+เมื่อไหร่ และเขียน Commit Message ไว้อย่างไร
+
+คำสั่งที่นิยมใช้:
+* git log                    : ดูประวัติทั้งหมดแบบละเอียด (รายละเอียดผู้เขียน, วันที่, Hash)
+* git log --oneline          : ดูประวัติแบบสั้นกระชับ (1 Commit ต่อ 1 บรรทัด)
+* git log -n 5               : ดูประวัติย้อนหลังเฉพาะ 5 รายการล่าสุด
+* git log --oneline --graph  : ดูประวัติพร้อมแสดงแผนผังการแยก/รวม Branch
+* git log --stat             : ดูประวัติพร้อมสรุปจำนวนบรรทัดและไฟล์ที่มีการแก้ไข
+
+(คำแนะนำ: เมื่ออยู่ในหน้าจอ log หากรายการยาวเกินไป ให้กดปุ่ม 'Q' เพื่อออกจากหน้าจอ)
+
+
+[EN] 1. git log - Commit History Viewer
+--------------------------------------------------------------------------------
+Used to review the project's commit history, tracking who changed what files, 
+when the changes occurred, and the corresponding commit messages.
+
+Common Usage:
+* git log                    : Display full commit history (Author, Date, Hash)
+* git log --oneline          : Concise view (1 commit per line)
+* git log -n 5               : Show only the last 5 commits
+* git log --oneline --graph  : Display history with an ASCII branch visualization graph
+* git log --stat             : Display history with changed files and insertion/deletion stats
+
+(Tip: If the log list is long and shows a colon prompt, press 'Q' to quit back to the terminal)
+
+
+================================================================================
+[TH] 2. คำสั่งกู้คืนไฟล์ แยกสาย และเปรียบเทียบโค้ด (Recovery, Branching & Diff)
+--------------------------------------------------------------------------------
+
+* git checkout <commit_id> / <branch_name>
+  [TH]: สลับไปดูสภาพโค้ด ณ Commit ในอดีต หรือสลับไปทำงานบน Branch อื่น
+  [EN]: Switch your workspace to a specific past commit or another branch.
+
+* git switch <branch_name>
+  [TH]: สลับไปยัง Branch ที่ต้องการ (เป็นคำสั่งใหม่ที่ใช้งานง่ายขึ้นแทน checkout)
+  [EN]: Switch directly to a specified branch (modern replacement for checkout).
+
+* git reset --soft <commit_id>
+  [TH]: ย้อนเวอร์ชันกลับไปที่ Commit ในอดีต โดยที่โค้ดที่แก้ไขล่าสุดยังคงอยู่ ไม่ถูกลบ
+  [EN]: Undo commits back to a target hash, keeping all your local changes staged.
+
+* git reset --hard <commit_id>
+  [TH]: ย้อนเวอร์ชันกลับไปในอดีต และ "ลบ" โค้ดที่แก้ไขหลังจากนั้นทิ้งทั้งหมด (ควรระวัง)
+  [EN]: Undo commits and completely discard all local changes made after that target hash.
+
+* git revert <commit_id>
+  [TH]: ยกเลิกการแก้ไขของ Commit ในอดีต โดยสร้าง Commit ใหม่ขึ้นมาทับ (ไม่เสียประวัติเดิม)
+  [EN]: Revert the changes of a specific past commit by creating a new inverse commit.
+
+* git restore <file_name>
+  [TH]: ดึงไฟล์เดิมจาก Commit ล่าสุดกลับมา เพื่อยกเลิกการแก้ไขที่ยังไม่ได้ Commit
+  [EN]: Discard uncommitted changes in your working directory for a specific file.
+
+* git blame <file_name>
+  [TH]: ตรวจดูโค้ดแบบบรรทัดต่อบรรทัด ว่าแต่ละบรรทัดใครเป็นคนเขียนและ Commit เมื่อไหร่
+  [EN]: Show line-by-line revision and author details for a specific file.
+
+* git diff
+  [TH]: เปรียบเทียบความแตกต่างระหว่างโค้ดปัจจุบันในเครื่อง กับโค้ดก่อนทำการบันทึก
+  [EN]: Show changes between your working directory and the last committed version.
+
+* git diff <commit_id1> <commit_id2>
+  [TH]: เปรียบเทียบความแตกต่างของโค้ดระหว่าง 2 Commit
+  [EN]: Show code differences between two specific commits.
+
+================================================================================
