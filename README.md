@@ -4,18 +4,19 @@
 An automated script template for Version Control using **Git / GitHub / GitLab** (e.g., Web Development, Python, C/C++, Embedded Systems, or FPGA). This toolkit eliminates repetitive CLI commands and streamlines your everyday Push/Pull workflow.
 
 ## ** อันดับแรกต้องลง GIT ลงคอมก่อน First You have to install GIT **  
-1) #Git for Windows
-   
+1) #Git for Windows  
   **จากเว็บไซต์ทางการ**  
     >  git-scm.com  
   **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):  
     >  winget install --id Git.Git -e --source winget  
+    
 2) #macOS  
 
   **Terminal**  
     >  brew install git  
   **Xcode Command Line Tools**  
     >  xcode-select --install  
+    
 3) #Linux
 
   **Ubuntu / Debian**  
