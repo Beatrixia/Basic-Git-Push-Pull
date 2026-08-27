@@ -7,7 +7,7 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 
 Git for Windows
 
-  **จากเว็บไซต์ทางการ** 
+  **จากเว็บไซต์ทางการ** /n
     git-scm.com
   **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):
     winget install --id Git.Git -e --source winget
