@@ -5,7 +5,7 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
 
 ## ** อันดับแรกต้องลง GIT ลงคอมก่อน First You have to install GIT **
 
-#Git for Windows
+Git for Windows
 
   **จากเว็บไซต์ทางการ** 
     git-scm.com
