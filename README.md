@@ -10,21 +10,21 @@ An automated script template for Version Control using **Git / GitHub / GitLab**
   **Package Manager** Command Prompt หรือ PowerShell (Winget / Scoop / Chocolatey):  
     >  winget install --id Git.Git -e --source winget  
 3) #macOS  
-  **Terminal** :  
+  **Terminal**  
     >  brew install git  
-  **Xcode Command Line Tools** :  
+  **Xcode Command Line Tools**  
     >  xcode-select --install  
 4) #Linux  
-  **Ubuntu / Debian** :  
+  **Ubuntu / Debian**  
     >  sudo apt update  
     >  sudo apt install git  
-  **Fedora / RHEL / CentOS** :  
+  **Fedora / RHEL / CentOS**  
     >  sudo dnf install git  
   **Arch Linux** :  
     >  sudo pacman -S git  
 
 วิธีตรวจสอบว่าติดตั้งสำเร็จหรือยัง  
-  Terminal / Command Prompt / Git Bash :  
+  Terminal / Command Prompt / Git Bash  
     >  git --version  
   
 ---
